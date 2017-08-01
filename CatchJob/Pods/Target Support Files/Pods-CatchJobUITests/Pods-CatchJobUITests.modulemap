@@ -1,0 +1,6 @@
+framework module Pods_CatchJobUITests {
+  umbrella header "Pods-CatchJobUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
