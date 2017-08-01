@@ -4,19 +4,25 @@ A simple test for iOS Developers
 
 ## Instructions
 
-1. Fork or clone this repo
-2. Create an iOS project
-3. Use the design located in the design folder
-4. Make the app load the json file remotely from this repo (i.e. `https://raw.githubusercontent.com/catchnz/ios-test/master/data/data.json`) as per the design
-5. Display the data as per the design
-6. Create a pull request or email us at dev@catch.co.nz
+1. Download thie repo
+![image](instructions/download.png)
 
-### Guidelines
+2. Open CatchJob/CatchJob.xcworkspace
 
-1. Your repo needs to include at minimum anything required to get the app working.  Detailed instructions should be provided in the `README.md` file to setup and run the app.
-2. Let us know how long you spent on it
+3. Build, Run
 
-### Bonus Points
+4. Test the unit such as parseData function.
 
-* Consume dependencies with tools like cocoapods
-* Unit tests
+
+### Time
+
+Start at 7:20 and finish the project at about 8:30, Then I modify the ReadMe and do some screenshot job.
+![image](instructions/startTime.png)
+
+
+### Screenshots
+![image](screenshot/1.png)
+![image](screenshot/2.png)
+![image](screenshot/3.png)
+![image](screenshot/4.png)
+![image](screenshot/5.png)
