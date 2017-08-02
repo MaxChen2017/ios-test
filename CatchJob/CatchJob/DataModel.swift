@@ -22,4 +22,11 @@ struct DataModel {
     
     // content
     var content: String
+    
+    init(_ dic: NSDictionary) {
+        self.id = dic.object(forKey: "id") as! Int
+        self.title = dic.object(forKey: "title") as! String
+        self.subtitle = dic.object(forKey: "subtitle") as! String
+        self.content = dic.object(forKey: "content") as! String
+    }
 }

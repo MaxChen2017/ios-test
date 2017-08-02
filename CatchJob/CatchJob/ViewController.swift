@@ -193,7 +193,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // translate the response into DataModel struct
         for article in response {
-            let newData = DataModel(id: article.object(forKey: "id") as! Int, title: article.object(forKey: "title") as! String, subtitle: article.object(forKey: "subtitle") as! String, content: article.object(forKey: "content") as! String)
+            let newData = DataModel(article)
             
             // append
             self.arrayData.append(newData)
